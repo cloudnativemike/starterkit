@@ -9,7 +9,7 @@ layout: default
   {% if page.author %}
     {% assign author_key = site.data.authors | where_exp: "item", "item[1].name == page.author" | first %}
     {% if author_key %}
-      • By <a href="/authors/{{ author_key[0] }}/" style="color: #0366d6; text-decoration: none;">{{ page.author }}</a>
+      • By <a href="{{ '/authors/' | append: author_key[0] | append: '/' | relative_url }}" style="color: #0366d6; text-decoration: none;">{{ page.author }}</a>
     {% else %}
       • By {{ page.author }}
     {% endif %}
@@ -23,7 +23,7 @@ layout: default
   <div style="margin-bottom: 20px;">
     {% for tag in page.tags %}
       <span style="display: inline-block; background: #f0f0f0; padding: 2px 6px; margin: 2px 4px 2px 0; border-radius: 3px; font-size: 0.8em;">
-        <a href="/tags/#{{ tag | slugify }}" style="color: #333; text-decoration: none;">{{ tag }}</a>
+        <a href="{{ '/tags/#' | append: tag | slugify | relative_url }}" style="color: #333; text-decoration: none;">{{ tag }}</a>
       </span>
     {% endfor %}
   </div>

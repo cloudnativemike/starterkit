@@ -44,14 +44,14 @@
           <h3>Navigation</h3>
           <ul style="list-style: none; padding-left: 0;">
             {% for item in site.data.navigation.main %}
-            <li style="margin: 5px 0;"><a href="{{ item.url }}">{{ item.title }}</a></li>
+            <li style="margin: 5px 0;"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
           
           <h4 style="margin-top: 15px; margin-bottom: 10px;">Documentation</h4>
           <ul style="list-style: none; padding-left: 0;">
             {% for item in site.data.navigation.documentation %}
-            <li style="margin: 3px 0;"><a href="{{ item.url }}">{{ item.title }}</a></li>
+            <li style="margin: 3px 0;"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </nav>

@@ -5,7 +5,7 @@ title: Breaking News from the Cloud
 
 ## Latest Headlines
 
-<p style="margin-bottom: 20px;"><a href="/tags/">Browse all articles by tags</a></p>
+<p style="margin-bottom: 20px;"><a href="{{ '/tags/' | relative_url }}">Browse all articles by tags</a></p>
 
 {% for post in site.posts %}
 ### [{{ post.title }}]({{ post.url }})
