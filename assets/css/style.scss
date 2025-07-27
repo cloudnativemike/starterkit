@@ -1,4 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minimal";
+
+/* Ensure this CSS file is working */
+body {
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
