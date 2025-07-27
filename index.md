@@ -8,14 +8,14 @@ title: Breaking News from the Cloud
 <p style="margin-bottom: 20px;"><a href="{{ '/tags/' | relative_url }}">Browse all articles by tags</a></p>
 
 {% for post in site.posts %}
-### [{{ post.title }}]({{ post.url }})
+### [{{ post.title }}]({{ post.url | relative_url }})
 *{{ post.date | date: "%B %d, %Y" }}* | **{{ post.categories | join: ", " | capitalize }}**
 
 {% assign excerpt_lines = post.excerpt | strip_html | split: "
 " %}
 {% assign excerpt_without_title = excerpt_lines | shift | join: "
 " %}
-{{ excerpt_without_title | truncate: 200, "" }} [Read more →]({{ post.url }})
+{{ excerpt_without_title | truncate: 200, "" }} [Read more →]({{ post.url | relative_url }})
 
 ---
 {% endfor %}
