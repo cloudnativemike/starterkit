@@ -24,7 +24,7 @@ email: editor@cloudtimes.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Your premier source for cloud computing, DevOps, and web development news.
   Demonstrating Jekyll's capabilities on GitHub Pages.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/starterkit" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cloudtimes
 github_username:  cloudnativemike
