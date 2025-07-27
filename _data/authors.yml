@@ -1,0 +1,35 @@
+sarah_chen:
+  name: "Sarah Chen"
+  role: "Senior Web Developer"
+  bio: "Sarah is a full-stack developer specializing in modern JavaScript frameworks and static site generation. She contributes to open-source projects and writes about web performance optimization."
+  avatar: "/assets/img/authors/sarah-chen.jpg"
+  twitter: "sarahdev"
+  github: "sarah-chen-dev"
+  linkedin: "sarahchendev"
+
+michael_torres:
+  name: "Michael Torres"
+  role: "DevOps Engineer"
+  bio: "Michael has 8 years of experience in CI/CD pipeline automation and cloud infrastructure. He's passionate about streamlining development workflows and reducing deployment friction."
+  avatar: "/assets/img/authors/michael-torres.jpg"
+  twitter: "mdevops"
+  github: "mtorres-devops"
+  linkedin: "michaeltorresdevops"
+
+rebecca_martinez:
+  name: "Dr. Rebecca Martinez"
+  role: "Cloud Solutions Architect"
+  bio: "Dr. Martinez holds a PhD in Distributed Systems and leads cloud migration strategies for Fortune 500 companies. She's an Azure MVP and frequent conference speaker."
+  avatar: "/assets/img/authors/rebecca-martinez.jpg"
+  twitter: "drmartinezcloud"
+  github: "rebecca-martinez"
+  linkedin: "rebeccamartinezphd"
+
+elena_rodriguez:
+  name: "Professor Elena Rodriguez"
+  role: "Computer Science Educator"
+  bio: "Professor Rodriguez teaches web development and software engineering at CloudTech University. She's an advocate for accessible technology education and open-source learning resources."
+  avatar: "/assets/img/authors/elena-rodriguez.jpg"
+  twitter: "profelena"
+  github: "elena-rodriguez-edu"
+  linkedin: "elenarodriguezprof"

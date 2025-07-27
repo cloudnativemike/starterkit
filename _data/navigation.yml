@@ -1,0 +1,21 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Contact"
+    url: "/contact/"
+  - title: "Browse by Tags"
+    url: "/tags/"
+
+documentation:
+  - title: "Getting Started"
+    url: "/documentation/getting-started/"
+  - title: "Deployment Guide"
+    url: "/documentation/deployment-guide/"
+
+social:
+  - title: "GitHub"
+    url: "https://github.com/cloudnativemike/starterkit"
+  - title: "Jekyll Docs"
+    url: "https://jekyllrb.com/docs/"

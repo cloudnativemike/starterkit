@@ -1,0 +1,11 @@
+<!-- Tags Section for Sidebar -->
+<h3>Topics</h3>
+<div style="margin: 10px 0;">
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+  <span style="display: inline-block; background: #f0f0f0; padding: 3px 6px; margin: 2px; border-radius: 3px; font-size: 0.8em;">
+    <a href="/tags/#{{ tag[0] }}" style="text-decoration: none; color: #333;">{{ tag[0] }}</a>
+    <small>({{ tag[1].size }})</small>
+  </span>
+{% endfor %}
+</div>
