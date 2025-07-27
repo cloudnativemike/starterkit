@@ -13,7 +13,7 @@ Explore our articles organized by topic tags:
 ## {{ tag[0] | capitalize }}
 
 {% for post in tag[1] %}
-- [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
+- [{{ post.title }}]({{ post.url | relative_url }}) - *{{ post.date | date: "%B %d, %Y" }}*
 {% endfor %}
 
 ---

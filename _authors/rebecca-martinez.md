@@ -14,7 +14,7 @@ author_id: rebecca_martinez
 
 {% assign author_posts = site.posts | where: "author", site.data.authors[page.author_id].name %}
 {% for post in author_posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
 ## Connect
